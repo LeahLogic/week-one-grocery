@@ -1,16 +1,72 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# The Grocery Edit
 
-Currently, two official plugins are available:
+A modern, responsive grocery list application built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Grocery Edit is designed to make everyday shopping more organized and convenient. It combines a clean, minimalist interface with practical features for managing grocery lists.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add grocery items with custom names
+- Organize products into shopping categories
+- Mark items as purchased or unpurchased
+- Remove items from the list
+- Track shopping progress with a dynamic progress bar
+- Automatically save data using localStorage
+- Maintain shopping lists between browser sessions
+- Responsive layout for desktop, tablet, and mobile devices
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Browser Local Storage
+
+## Project Highlights
+
+- Component-based React architecture
+- State management with React Hooks
+- Dynamic rendering and event handling
+- Persistent data storage
+- Custom CSS styling and responsive layouts
+- Accessible form controls and interactive elements
+- No additional UI frameworks
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/LeahLogic/week-one-grocery.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd week-one-grocery
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Author
+
+Leah
+
+GitHub: https://github.com/LeahLogic
+
+## Project Purpose
+
+This project was developed as part of a front-end development portfolio to demonstrate practical skills in React, JavaScript, responsive web design, and interactive user interfaces.
